@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+}
+
+.page-footer {
+    background-color: aqua;
+    padding: 20px;
+}
